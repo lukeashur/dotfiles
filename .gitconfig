@@ -1,0 +1,19 @@
+[user]
+    name = Luke Ashur
+    email = lukeashur@protonmail.com
+
+[core]
+    editor = subl
+    autocrlf = input
+
+[alias]
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
+
+[push]
+    default = simple
+
+[color]
+    ui = auto
