@@ -87,10 +87,18 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
-# some more ls aliases
+alias zshconfig="subl ~/.zshrc"
+
+# ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Shortcuts for git commands
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
