@@ -76,5 +76,9 @@
         "key": "ctrl+shift+alt+i",
         "command": "-workbench.action.chat.openEditSession",
         "when": "chatEditingParticipantRegistered && chatIsEnabled && view != 'workbench.panel.chat.view.edits'"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.terminal.clear"
     }
 ]
